@@ -1,6 +1,6 @@
 FROM ubuntu
 
-RUN mkdir /build
+# RUN mkdir /build
 WORKDIR /build
 
 RUN dpkg --add-architecture i386
