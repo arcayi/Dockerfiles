@@ -9,4 +9,4 @@ RUN apt-get install gcc-arm-linux-gnueabi build-essential -y
 
 # COPY . .
 ENV TARGET_TYPE scooter
-RUN make
+ENTRYPOINT make
