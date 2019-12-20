@@ -13,6 +13,7 @@ RUN apt-get install \
     zlib1g-dev \
     openssl \
     libffi-dev \
+    wget \
     -y
 
 # COPY . .
