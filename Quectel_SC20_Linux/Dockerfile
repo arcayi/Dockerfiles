@@ -42,7 +42,7 @@ RUN locale-gen en_US.UTF-8
 RUN update-locale LC_ALL=en_US.UTF-8 LANG=en_US.UTF-8
 ENV LANG en_US.UTF-8
 
-RUN touch /build/poky/build/conf/sanity.conf
+# RUN touch /build/poky/build/conf/sanity.conf
 
 # COPY . .
 # ENV TARGET_TYPE scooter
